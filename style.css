@@ -1,0 +1,222 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*GENEREL STYLING*/
+
+* {
+    box-sizing: border-box;
+    border-color: #c3ced3 !important; 
+    /*der var en styling på min border... som jeg ikke kunne finde og har derfor lavet !important, for at overskrive. */
+}
+
+body {
+    background-color: #4e5340;
+    
+}
+
+h1 {
+    font-family: 'Whisper', cursive;
+    color: #c3ced3;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #c3ced3;
+    font-weight: 100;
+}
+
+.buttonReadMore {
+    color: #c3ced3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+
+
+/*-------------------*/
+
+/*BAGGRUNDSBILLEDER*/
+
+.backgroundImgBig {
+    background-image: url(img/backgroundPortfolioBig.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85%;
+    z-index: -1;
+
+}
+
+.htmllogo {
+    background-image: url(img/htmlLogoSmall.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+}
+
+.csslogo {
+    background-image: url(img/cssLogoSmall.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+}
+
+.javascriptlogo {
+    background-image: url(img/javascriptLogoSmall.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+}
+
+.reactlogo {
+    background-image: url(img/reactLogoSmall.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+}
+
+.tailwindlogo {
+    background-image: url(img/tailwindLogoSmall.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+}
+
+.gitlogo {
+    background-image: url(img/gitLogoSmall.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+}
+
+.githublogo {
+    background-image: url(img/githubLogoSmall.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+}
+
+.npmlogo {
+    background-image: url(img/npmLogoSmall.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+}
+
+.canvalogo {
+    background-image: url(img/canvaLogoSmall.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+}
+
+.figmalogo {
+    background-image: url(img/figmaLogoSmall.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+}
+
+.werthers {
+    background-image: url(img/werthers.png);
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.repaircafe {
+    background-image: url(img/repaircafe.png);
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.dyrevaernet {
+    background-image: url(img/dyrevaernet.png);
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.portfolio {
+    background-image: url(img/newportfolio.png);
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.praktik {
+    background-image: url(img/itsharevision.png);
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.ikobenhavn {
+    background-image: url(img/ikobenhavn.png);
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.karmen {
+    background-image: url(img/karmen.png);
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.oldportfolio {
+    background-image: url(img/oldportfolio.png);
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/*-------------------*/
